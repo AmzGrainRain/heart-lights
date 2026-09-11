@@ -16,6 +16,41 @@ void delay100ms()
     } while (--n);
 }
 
+void delay200ms()
+{
+	unsigned char data i, j, k;
+
+	_nop_();
+	i = 2;
+	j = 103;
+	k = 147;
+	do
+	{
+		do
+		{
+			while (--k);
+		} while (--j);
+	} while (--i);
+}
+
+void delay500ms()
+{
+	unsigned char data i, j, k;
+
+	_nop_();
+	i = 4;
+	j = 129;
+	k = 119;
+	do
+	{
+		do
+		{
+			while (--k);
+		} while (--j);
+	} while (--i);
+}
+
+
 void delay1000ms()
 {
 	unsigned char data i, j, k;

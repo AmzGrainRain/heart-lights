@@ -6,6 +6,8 @@
 
 void delay10ms();
 void delay100ms();
+void delay200ms();
+void delay500ms();
 void delay1000ms();
 
 void led_off();
